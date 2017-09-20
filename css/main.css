@@ -1,0 +1,98 @@
+
+body, html {
+    height: 100%
+}
+
+body {
+  background-color: #232222;
+}
+
+.bgimg {
+
+    height: 100%;
+
+    background-position: center;
+
+    background-size: cover;
+
+    position: relative;
+
+    color: white;
+
+    font-family: 'Lobster', cursive;
+
+    font-size: 40px;
+
+}
+
+
+.topleft {
+    position: relative;
+    top: 0;
+    left: 16px;
+    font-size: 40px;
+    font-family: 'Patrick Hand SC', cursive;
+    padding-top: 1rem
+}
+
+
+.bottomleft {
+    position: absolute;
+    bottom: 0;
+    left: 16px;
+    font-size: 22px;
+    font-family: 'Patrick Hand SC', cursive;
+}
+
+.bottomright {
+    position: absolute;
+    bottom: 0;
+    right: 16px;
+    font-size: 22px;
+    list-style-type: none;
+    font-family: 'Patrick Hand SC', cursive;
+    padding-bottom: 1rem;
+}
+
+
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.timer {
+  font-family: 'Patrick Hand SC', cursive;
+}
+
+hr {
+    margin: auto;
+    width: 40%;
+}
+
+a {
+  color: white;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FC4F4F;
+  text-decoration: none;
+}
+
+.logo {
+  width: 65px;
+  float: left;
+}
+
+.name {
+  margin: 0;
+  padding: 0;
+  padding-top: .5rem;
+}
